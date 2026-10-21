@@ -1,0 +1,19 @@
+# Microdata: download from INEI, never commit
+data/
+*.dta
+*.sav
+*.csv
+
+# Outputs created by the code
+output/
+*.xls
+*.xlsx
+*.png
+*.gph
+*.log
+*.smcl
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
