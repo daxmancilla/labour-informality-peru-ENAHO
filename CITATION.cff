@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "Labour informality among private-sector employees in Peru: ENAHO, 2018-2022"
+abstract: >-
+  Stata code that merges the modules of Peru's national household survey
+  (ENAHO, INEI) for 2018-2022, builds labour market variables, produces
+  survey-weighted descriptive tables and estimates logit models of labour
+  informality among private-sector employees, with average marginal effects.
+authors:
+  - family-names: "Mancilla Paucar"
+    given-names: "Dax Kevin"
+repository-code: "https://github.com/daxmancilla/labour-informality-peru-ENAHO"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - labour informality
+  - household survey
+  - ENAHO
+  - logit
+  - Stata
+  - Peru
