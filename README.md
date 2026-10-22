@@ -1,4 +1,4 @@
-# Labour informality among private-sector employees in Peru, 2018-2022
+# Labour informality among private-sector employees in Peru: ENAHO, 2018-2022
 
 Stata code to measure and model labour informality among private-sector employees in Peru with household survey microdata (ENAHO, INEI). The pipeline merges the survey modules, builds the labour market variables, produces survey-weighted descriptive tables and estimates logit models with average marginal effects for 2019, 2020 and 2022.
 
@@ -72,7 +72,7 @@ Value labels follow the Spanish categories of the INEI questionnaire.
 ## Repository structure
 
 ```
-labour-informality-peru/
+labour-informality-peru-ENAHO/
 ├── code/
 │   ├── 00_master.do          # paths and full pipeline
 │   ├── 01_build_dataset.do   # merges ENAHO modules and builds variables
